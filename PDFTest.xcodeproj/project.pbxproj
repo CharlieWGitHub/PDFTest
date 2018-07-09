@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1A82231DF90C960084CE1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A82221DF90C960084CE1C /* main.m */; };
+		EA1A82261DF90C960084CE1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A82251DF90C960084CE1C /* AppDelegate.m */; };
+		EA1A82291DF90C960084CE1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A82281DF90C960084CE1C /* ViewController.m */; };
+		EA1A822C1DF90C960084CE1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1A822A1DF90C960084CE1C /* Main.storyboard */; };
+		EA1A822E1DF90C960084CE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1A822D1DF90C960084CE1C /* Assets.xcassets */; };
+		EA1A82311DF90C960084CE1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1A822F1DF90C960084CE1C /* LaunchScreen.storyboard */; };
+		EA1A823C1DF90C960084CE1C /* PDFTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A823B1DF90C960084CE1C /* PDFTestTests.m */; };
+		EA1A82471DF90C960084CE1C /* PDFTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A82461DF90C960084CE1C /* PDFTestUITests.m */; };
+		EA1A825E1DF90D3C0084CE1C /* ZPDFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A82551DF90D3C0084CE1C /* ZPDFListViewController.m */; };
+		EA1A825F1DF90D3C0084CE1C /* ZPDFPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A82571DF90D3C0084CE1C /* ZPDFPageController.m */; };
+		EA1A82601DF90D3C0084CE1C /* ZPDFPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A82591DF90D3C0084CE1C /* ZPDFPageModel.m */; };
+		EA1A82611DF90D3C0084CE1C /* ZPDFReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A825B1DF90D3C0084CE1C /* ZPDFReaderController.m */; };
+		EA1A82621DF90D3C0084CE1C /* ZPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1A825D1DF90D3C0084CE1C /* ZPDFView.m */; };
+		EA1A82661DF90D500084CE1C /* 001.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EA1A82631DF90D500084CE1C /* 001.pdf */; };
+		EA1A82671DF90D500084CE1C /* 002.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EA1A82641DF90D500084CE1C /* 002.pdf */; };
+		EA1A82681DF90D500084CE1C /* 003.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EA1A82651DF90D500084CE1C /* 003.pdf */; };
+		EAD387571E836D4C00CE0715 /* 004.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EAD387561E836D4C00CE0715 /* 004.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1A82381DF90C960084CE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1A82161DF90C960084CE1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1A821D1DF90C960084CE1C;
+			remoteInfo = PDFTest;
+		};
+		EA1A82431DF90C960084CE1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1A82161DF90C960084CE1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1A821D1DF90C960084CE1C;
+			remoteInfo = PDFTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1A821E1DF90C960084CE1C /* PDFTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1A82221DF90C960084CE1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA1A82241DF90C960084CE1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA1A82251DF90C960084CE1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA1A82271DF90C960084CE1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA1A82281DF90C960084CE1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA1A822B1DF90C960084CE1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA1A822D1DF90C960084CE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1A82301DF90C960084CE1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA1A82321DF90C960084CE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1A82371DF90C960084CE1C /* PDFTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1A823B1DF90C960084CE1C /* PDFTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFTestTests.m; sourceTree = "<group>"; };
+		EA1A823D1DF90C960084CE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1A82421DF90C960084CE1C /* PDFTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1A82461DF90C960084CE1C /* PDFTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFTestUITests.m; sourceTree = "<group>"; };
+		EA1A82481DF90C960084CE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1A82541DF90D3C0084CE1C /* ZPDFListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFListViewController.h; sourceTree = "<group>"; };
+		EA1A82551DF90D3C0084CE1C /* ZPDFListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFListViewController.m; sourceTree = "<group>"; };
+		EA1A82561DF90D3C0084CE1C /* ZPDFPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFPageController.h; sourceTree = "<group>"; };
+		EA1A82571DF90D3C0084CE1C /* ZPDFPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFPageController.m; sourceTree = "<group>"; };
+		EA1A82581DF90D3C0084CE1C /* ZPDFPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFPageModel.h; sourceTree = "<group>"; };
+		EA1A82591DF90D3C0084CE1C /* ZPDFPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFPageModel.m; sourceTree = "<group>"; };
+		EA1A825A1DF90D3C0084CE1C /* ZPDFReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFReaderController.h; sourceTree = "<group>"; };
+		EA1A825B1DF90D3C0084CE1C /* ZPDFReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFReaderController.m; sourceTree = "<group>"; };
+		EA1A825C1DF90D3C0084CE1C /* ZPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFView.h; sourceTree = "<group>"; };
+		EA1A825D1DF90D3C0084CE1C /* ZPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFView.m; sourceTree = "<group>"; };
+		EA1A82631DF90D500084CE1C /* 001.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 001.pdf; sourceTree = "<group>"; };
+		EA1A82641DF90D500084CE1C /* 002.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 002.pdf; sourceTree = "<group>"; };
+		EA1A82651DF90D500084CE1C /* 003.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 003.pdf; sourceTree = "<group>"; };
+		EAD387561E836D4C00CE0715 /* 004.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 004.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1A821B1DF90C960084CE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1A82341DF90C960084CE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1A823F1DF90C960084CE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1A82151DF90C960084CE1C = {
+			isa = PBXGroup;
+			children = (
+				EA1A82201DF90C960084CE1C /* PDFTest */,
+				EA1A823A1DF90C960084CE1C /* PDFTestTests */,
+				EA1A82451DF90C960084CE1C /* PDFTestUITests */,
+				EA1A821F1DF90C960084CE1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1A821F1DF90C960084CE1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A821E1DF90C960084CE1C /* PDFTest.app */,
+				EA1A82371DF90C960084CE1C /* PDFTestTests.xctest */,
+				EA1A82421DF90C960084CE1C /* PDFTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1A82201DF90C960084CE1C /* PDFTest */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A82241DF90C960084CE1C /* AppDelegate.h */,
+				EA1A82251DF90C960084CE1C /* AppDelegate.m */,
+				EA1A82271DF90C960084CE1C /* ViewController.h */,
+				EA1A82281DF90C960084CE1C /* ViewController.m */,
+				EA1A82541DF90D3C0084CE1C /* ZPDFListViewController.h */,
+				EA1A82551DF90D3C0084CE1C /* ZPDFListViewController.m */,
+				EA1A82561DF90D3C0084CE1C /* ZPDFPageController.h */,
+				EA1A82571DF90D3C0084CE1C /* ZPDFPageController.m */,
+				EA1A82581DF90D3C0084CE1C /* ZPDFPageModel.h */,
+				EA1A82591DF90D3C0084CE1C /* ZPDFPageModel.m */,
+				EA1A825A1DF90D3C0084CE1C /* ZPDFReaderController.h */,
+				EA1A825B1DF90D3C0084CE1C /* ZPDFReaderController.m */,
+				EA1A825C1DF90D3C0084CE1C /* ZPDFView.h */,
+				EA1A825D1DF90D3C0084CE1C /* ZPDFView.m */,
+				EA1A822A1DF90C960084CE1C /* Main.storyboard */,
+				EA1A822D1DF90C960084CE1C /* Assets.xcassets */,
+				EA1A822F1DF90C960084CE1C /* LaunchScreen.storyboard */,
+				EA1A82321DF90C960084CE1C /* Info.plist */,
+				EA1A82211DF90C960084CE1C /* Supporting Files */,
+			);
+			path = PDFTest;
+			sourceTree = "<group>";
+		};
+		EA1A82211DF90C960084CE1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD387561E836D4C00CE0715 /* 004.pdf */,
+				EA1A82631DF90D500084CE1C /* 001.pdf */,
+				EA1A82641DF90D500084CE1C /* 002.pdf */,
+				EA1A82651DF90D500084CE1C /* 003.pdf */,
+				EA1A82221DF90C960084CE1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA1A823A1DF90C960084CE1C /* PDFTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A823B1DF90C960084CE1C /* PDFTestTests.m */,
+				EA1A823D1DF90C960084CE1C /* Info.plist */,
+			);
+			path = PDFTestTests;
+			sourceTree = "<group>";
+		};
+		EA1A82451DF90C960084CE1C /* PDFTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A82461DF90C960084CE1C /* PDFTestUITests.m */,
+				EA1A82481DF90C960084CE1C /* Info.plist */,
+			);
+			path = PDFTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1A821D1DF90C960084CE1C /* PDFTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1A824B1DF90C960084CE1C /* Build configuration list for PBXNativeTarget "PDFTest" */;
+			buildPhases = (
+				EA1A821A1DF90C960084CE1C /* Sources */,
+				EA1A821B1DF90C960084CE1C /* Frameworks */,
+				EA1A821C1DF90C960084CE1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFTest;
+			productName = PDFTest;
+			productReference = EA1A821E1DF90C960084CE1C /* PDFTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA1A82361DF90C960084CE1C /* PDFTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1A824E1DF90C960084CE1C /* Build configuration list for PBXNativeTarget "PDFTestTests" */;
+			buildPhases = (
+				EA1A82331DF90C960084CE1C /* Sources */,
+				EA1A82341DF90C960084CE1C /* Frameworks */,
+				EA1A82351DF90C960084CE1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1A82391DF90C960084CE1C /* PBXTargetDependency */,
+			);
+			name = PDFTestTests;
+			productName = PDFTestTests;
+			productReference = EA1A82371DF90C960084CE1C /* PDFTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA1A82411DF90C960084CE1C /* PDFTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1A82511DF90C960084CE1C /* Build configuration list for PBXNativeTarget "PDFTestUITests" */;
+			buildPhases = (
+				EA1A823E1DF90C960084CE1C /* Sources */,
+				EA1A823F1DF90C960084CE1C /* Frameworks */,
+				EA1A82401DF90C960084CE1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1A82441DF90C960084CE1C /* PBXTargetDependency */,
+			);
+			name = PDFTestUITests;
+			productName = PDFTestUITests;
+			productReference = EA1A82421DF90C960084CE1C /* PDFTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1A82161DF90C960084CE1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "成龙";
+				TargetAttributes = {
+					EA1A821D1DF90C960084CE1C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EA1A82361DF90C960084CE1C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA1A821D1DF90C960084CE1C;
+					};
+					EA1A82411DF90C960084CE1C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA1A821D1DF90C960084CE1C;
+					};
+				};
+			};
+			buildConfigurationList = EA1A82191DF90C960084CE1C /* Build configuration list for PBXProject "PDFTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1A82151DF90C960084CE1C;
+			productRefGroup = EA1A821F1DF90C960084CE1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1A821D1DF90C960084CE1C /* PDFTest */,
+				EA1A82361DF90C960084CE1C /* PDFTestTests */,
+				EA1A82411DF90C960084CE1C /* PDFTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1A821C1DF90C960084CE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1A82681DF90D500084CE1C /* 003.pdf in Resources */,
+				EAD387571E836D4C00CE0715 /* 004.pdf in Resources */,
+				EA1A82661DF90D500084CE1C /* 001.pdf in Resources */,
+				EA1A82311DF90C960084CE1C /* LaunchScreen.storyboard in Resources */,
+				EA1A822E1DF90C960084CE1C /* Assets.xcassets in Resources */,
+				EA1A822C1DF90C960084CE1C /* Main.storyboard in Resources */,
+				EA1A82671DF90D500084CE1C /* 002.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1A82351DF90C960084CE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1A82401DF90C960084CE1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1A821A1DF90C960084CE1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1A82291DF90C960084CE1C /* ViewController.m in Sources */,
+				EA1A825F1DF90D3C0084CE1C /* ZPDFPageController.m in Sources */,
+				EA1A82601DF90D3C0084CE1C /* ZPDFPageModel.m in Sources */,
+				EA1A82611DF90D3C0084CE1C /* ZPDFReaderController.m in Sources */,
+				EA1A82621DF90D3C0084CE1C /* ZPDFView.m in Sources */,
+				EA1A82261DF90C960084CE1C /* AppDelegate.m in Sources */,
+				EA1A825E1DF90D3C0084CE1C /* ZPDFListViewController.m in Sources */,
+				EA1A82231DF90C960084CE1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1A82331DF90C960084CE1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1A823C1DF90C960084CE1C /* PDFTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1A823E1DF90C960084CE1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1A82471DF90C960084CE1C /* PDFTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1A82391DF90C960084CE1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1A821D1DF90C960084CE1C /* PDFTest */;
+			targetProxy = EA1A82381DF90C960084CE1C /* PBXContainerItemProxy */;
+		};
+		EA1A82441DF90C960084CE1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1A821D1DF90C960084CE1C /* PDFTest */;
+			targetProxy = EA1A82431DF90C960084CE1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA1A822A1DF90C960084CE1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1A822B1DF90C960084CE1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA1A822F1DF90C960084CE1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1A82301DF90C960084CE1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1A82491DF90C960084CE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA1A824A1DF90C960084CE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1A824C1DF90C960084CE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shijie dou (4VDEQNZ634)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: shijie dou (4VDEQNZ634)";
+				INFOPLIST_FILE = PDFTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kekejl.kekelexing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA1A824D1DF90C960084CE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shijie dou (4VDEQNZ634)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: shijie dou (4VDEQNZ634)";
+				INFOPLIST_FILE = PDFTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kekejl.kekelexing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EA1A824F1DF90C960084CE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDFTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charlie.PDFTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFTest.app/PDFTest";
+			};
+			name = Debug;
+		};
+		EA1A82501DF90C960084CE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDFTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charlie.PDFTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFTest.app/PDFTest";
+			};
+			name = Release;
+		};
+		EA1A82521DF90C960084CE1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PDFTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charlie.PDFTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PDFTest;
+			};
+			name = Debug;
+		};
+		EA1A82531DF90C960084CE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PDFTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = charlie.PDFTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PDFTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1A82191DF90C960084CE1C /* Build configuration list for PBXProject "PDFTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1A82491DF90C960084CE1C /* Debug */,
+				EA1A824A1DF90C960084CE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1A824B1DF90C960084CE1C /* Build configuration list for PBXNativeTarget "PDFTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1A824C1DF90C960084CE1C /* Debug */,
+				EA1A824D1DF90C960084CE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1A824E1DF90C960084CE1C /* Build configuration list for PBXNativeTarget "PDFTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1A824F1DF90C960084CE1C /* Debug */,
+				EA1A82501DF90C960084CE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1A82511DF90C960084CE1C /* Build configuration list for PBXNativeTarget "PDFTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1A82521DF90C960084CE1C /* Debug */,
+				EA1A82531DF90C960084CE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA1A82161DF90C960084CE1C /* Project object */;
+}
